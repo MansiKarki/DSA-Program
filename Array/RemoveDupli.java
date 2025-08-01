@@ -3,7 +3,7 @@ import java.util.List;
 
 public class RemoveDupli {
     public static void main(String[] args) {
-        int num[] = {0, 0, 1, 1, 2, 2, 3, 3, 4, 4, 5, 5};
+        int num[] = {0, 0, 1, 1, 2, 2, 3, 3, 4, 4};
         List<Integer> list = new ArrayList<>();
 
         for (int i = 0; i < num.length; i++) {
