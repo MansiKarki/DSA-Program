@@ -6,5 +6,6 @@ public class rectangle {
             }
             System.out.println(); // Move to next line after each row
         }
+        
     }
 }
