@@ -16,7 +16,7 @@ public class complexityt {
     }
 
     public static void main(String[] args) {
-        int[] data = {5, 7, 2, 9, 11};
+        int[] data = {5, 7, 2, 9, 11,12,13,14};
         int key1 = 9;
         int key2 = 3;
 
