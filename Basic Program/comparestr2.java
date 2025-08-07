@@ -7,7 +7,7 @@ public class comparestr2 {
         } else {
             System.out.println("The strings are not equal.");
         }
-        return result;  // Return the comparison result
+        return result;  
     }
 
     public static void main(String[] args) {
