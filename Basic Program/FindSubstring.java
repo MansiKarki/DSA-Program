@@ -3,10 +3,10 @@ public class FindSubstring {
         int hLen = haystack.length();
         int nLen = needle.length();
 
-        // If needle is empty, return 0
+       
         if (nLen == 0) return 0;
 
-        // Loop through haystack
+        
         for (int i = 0; i <= hLen - nLen; i++) {
             int j;
             // Check if substring matches
@@ -22,8 +22,8 @@ public class FindSubstring {
     }
 
     public static void main(String[] args) {
-        String haystack = "sadbutsad";
-        String needle = "sad";
+        String haystack = "mansikarki";
+        String needle = "mansi";
 
         int index = strStr(haystack, needle);
         System.out.println(index); // Output: 0
