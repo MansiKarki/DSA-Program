@@ -1,6 +1,6 @@
 public class Stringfunc {
     public static void main(String[] args) {
-        String str = "  Hello Java World  ";
+        String str = "  Hello Mansiii";
 
         // 1. Length of string
         System.out.println("Length: " + str.length());
