@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class primeno {
     static boolean isPrime(int n, int i) {
         if (n <= 2) return n == 2;
@@ -7,7 +9,10 @@ public class primeno {
     }
 
     public static void main(String[] args) {
-        int n = 15;
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int n = sc.nextInt();
         System.out.println(isPrime(n, 2) ? "Prime" : "Not Prime");
+        sc.close();
     }
 }
