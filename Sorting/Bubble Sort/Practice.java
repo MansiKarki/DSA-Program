@@ -1,7 +1,7 @@
 import java.util.Arrays;
 public class Practice {
      public static void main(String[] args) {
-        int[] arr={1,3,4,2,6,7,9};
+        int[] arr={1,3,4,2,5};
          bubble(arr);
         System.out.println(Arrays.toString(arr));
         
