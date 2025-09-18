@@ -19,7 +19,7 @@ public class palindrome {
     System.out.println("palindrome.");
    }
    else{
-    System.out.println("The number is not a palindrome.");
+    System.out.println("not palindrome.");
    }
     sc.close();
     }
