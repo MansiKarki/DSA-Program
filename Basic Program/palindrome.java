@@ -16,10 +16,10 @@ public class palindrome {
           System.out.println("Reversed number: " + reversedNum);
  if(reversedNum ==  originalNum) 
    {
-    System.out.println("palindrome.");
+    System.out.println("its palindrome.");
    }
    else{
-    System.out.println("not palindrome.");
+    System.out.println("its not palindrome.");
    }
     sc.close();
     }
