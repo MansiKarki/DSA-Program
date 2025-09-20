@@ -10,9 +10,8 @@ public class SimpleClassMetho {
     addd = sc.nextLine();
     }
     void display(){
-        System.out.println("Student Name and Address are displayed");
-        System.out.println("Name: "+name);
-        System.out.println("Address: "+addd);
+        System.out.println("Student Name " +name + "and Address are" +addd);
+   
 
     }
     public static void main(String[] args) {
