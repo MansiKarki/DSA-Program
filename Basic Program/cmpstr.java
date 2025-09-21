@@ -9,10 +9,10 @@ public class cmpstr {
         name = Sc.next();
        
         if("admin".equals(name)){
-            System.out.println("unlocked");
+            System.out.println("Opened");
         } 
         else {
-            System.out.println("locked");
+            System.out.println("Closed");
         }
        
         Sc.close();
