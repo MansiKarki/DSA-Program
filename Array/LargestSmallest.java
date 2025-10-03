@@ -1,6 +1,6 @@
 public class LargestSmallest {
     public static void main(String[] args) {
-        int[] arr = {12, 35, 1, 10, 34, 1};
+        int[] arr = {12, 35, 1, 10, 34, 1,25,76,66,0,78};
 
         int largest = arr[0];   // assume first element is largest
         int smallest = arr[0];  // assume first element is smallest
