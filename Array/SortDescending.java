@@ -3,7 +3,7 @@ import java.util.Collections;
 
 class SortDescending {
     public static void main(String[] args) {
-        Integer[] arr = {12, 35, 1, 10, 34, 1};
+        Integer[] arr = {12, 35, 1, 10, 34, 112};
 
         Arrays.sort(arr, Collections.reverseOrder());
 
