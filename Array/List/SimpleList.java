@@ -5,8 +5,8 @@ public class SimpleList {
         List<String> names = new ArrayList<>();
 
         names.add("Mansi");
-        names.add("Riya");
-        names.add("Aman");
+        names.add("vaishh");
+        names.add("yash");
 
         System.out.println("Names in the list: " + names);
     }
