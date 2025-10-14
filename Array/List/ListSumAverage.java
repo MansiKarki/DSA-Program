@@ -13,6 +13,6 @@ public class ListSumAverage {
 
         System.out.println("Num: " + numbers);
         System.out.println("Sum: " + sum);
-        System.out.println("Average: " + average);
+        System.out.println("Ave: " + average);
     }
 }
