@@ -11,7 +11,7 @@ public class ListSumAverage {
 
         double average = (double) sum / numbers.size();
 
-        System.out.println("Numbers: " + numbers);
+        System.out.println("Num: " + numbers);
         System.out.println("Sum: " + sum);
         System.out.println("Average: " + average);
     }
