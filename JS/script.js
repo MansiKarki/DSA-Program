@@ -128,6 +128,6 @@ const classinfo={
         grade:"B"
     },
        ram :{
-        grade:"D"
+        grade:"g"
     },
 };
