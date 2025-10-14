@@ -114,10 +114,10 @@
 
 
 //------------------------------------------------------------variable name with keyword
-// const obj={
-//     null:"mansi",
-//     undefined:23
-// }
+const obj={
+    null:"mansi",
+    undefined:23
+}
 
 //----------------------------------------------------------Multiple objects
 const classinfo={
