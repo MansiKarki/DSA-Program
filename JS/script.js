@@ -131,7 +131,7 @@ const classinfo={
         grade:"C"
     },
 };
-let fruit = ["apple", "banana", "mango", "grapes"];
+let fruit = ["apple", "banana", "mango", "grapes","CHIKOO"];
 for(let i=0; i<fruit.length; i++)
 {
     console.log(fruit[i]);
