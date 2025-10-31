@@ -114,25 +114,115 @@
 
 
 //------------------------------------------------------------variable name with keyword
-const obj={
-    null:"mansi",
-    undefined:23
-}
+// const obj={
+//     null:"mansi",
+//     undefined:23
+// }
 
 //----------------------------------------------------------Multiple objects
-const classinfo={
-    mansi :{
-        grade:"A"
-    },
-    dipendra :{
-        grade:"B"
-    },
-       ram :{
-        grade:"C"
-    },
-};
-let fruit = ["apple", "banana", "mango", "grapes","CHIKOO","papaya"];
-for(let i=0; i<fruit.length; i++)
-{
-    console.log(fruit[i]);
+// const classinfo={
+//     mansi :{
+//         grade:"A"
+//     },
+//     dipendra :{
+//         grade:"B"
+//     },
+//        ram :{
+//         grade:"C"
+//     },
+// };
+// let fruit = ["apple", "banana", "mango", "grapes","CHIKOO","papaya"];
+// for(let i=0; i<fruit.length; i++)
+// {
+//     console.log(fruit[i]);
+// }
+
+
+//method 1
+function abc(){
+    console.log("hello");
 }
+abc();
+
+//method 2
+let abcd=function(){
+    console.log("hi");
+}
+abcd();
+
+//method 3
+function dance(style){
+    console.log("dancing "+ style);
+}
+dance("classical");
+
+
+//method 4
+function add(n1,n2){
+    
+    console.log(n1+n2);
+}
+add(5,10);
+
+//method 5
+
+function add(v1=1,v2= 3){
+    console.log(v1,v2);
+}
+add()
+
+//method 6
+function abcdd(...val){
+    console.log(val);
+}
+abcdd(1,2,3,4,5);
+
+//method 7
+
+function abcde(){
+    return "mansi";
+}
+
+let value= abcde();
+console.log(value);
+
+//method 8
+// function multiply(n1,n2){
+//     return n1*n2;
+// }
+
+
+
+//method 8
+// let a=12
+// function test(){
+//     console.log("heyyy");
+// }
+
+// function demo(){
+//   a++;
+// }
+
+
+//method 9
+// function abccd(){
+//     let a=12;
+//     return function()
+//     {
+//         comsole.log(a);
+//     }
+// }
+
+// abccd()();
+
+// (function(){
+//     console.log("IIFE function");
+// })();
+
+
+function f()
+{
+    return;
+}
+
+console.log(f())
