@@ -193,15 +193,15 @@ console.log(value);
 
 
 
-//method 8
-// let a=12
-// function test(){
-//     console.log("heyyy");
-// }
+// method 8
+let a=12
+function test(){
+    console.log("heyyy");
+}
 
-// function demo(){
-//   a++;
-// }
+function demo(){
+  a++;
+}
 
 
 //method 9
@@ -228,10 +228,10 @@ function f()
 console.log(f())
 
 
-//IIFE
-// (function() {
-//   console.log("This is an IIFE (Immediately Invoked Function Expression)");
-// })();
+IIFE
+(function() {
+  console.log("This is an IIFE (Immediately Invoked Function Expression)");
+})();
 
 
 // BMI CALCULATOR
@@ -240,3 +240,5 @@ function calculateBMI(weight, height) {
     return weight / (height * height );
 }
 console.log(calculateBMI(70, 1.75).toFixed(3)); // Example usage
+
+//Array
