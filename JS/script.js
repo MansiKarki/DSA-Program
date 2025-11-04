@@ -187,9 +187,9 @@ let value= abcde();
 console.log(value);
 
 //method 8
-// function multiply(n1,n2){
-//     return n1*n2;
-// }
+function multiply(n1,n2){
+    return n1*n2;
+}
 
 
 
@@ -205,13 +205,13 @@ function demo(){
 
 
 //method 9
-// function abccd(){
-//     let a=12;
-//     return function()
-//     {
-//         comsole.log(a);
-//     }
-// }
+function abccd(){
+    let a=12;
+    return function()
+    {
+        comsole.log(a);
+    }
+}
 
 // abccd()();
 
