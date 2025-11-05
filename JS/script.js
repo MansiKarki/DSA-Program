@@ -105,37 +105,37 @@
 
 
 //-------------------------------------------------------------object 2
-// const post ={
-//      username:"mansikk23",
-//      content: "Surronundings are beautiful",
-//      like: 100,
-//      repost:20 
-// }
+const post ={
+     username:"mansikk23",
+     content: "Surronundings are beautiful",
+     like: 100,
+     repost:20 
+}
 
 
 //------------------------------------------------------------variable name with keyword
-// const obj={
-//     null:"mansi",
-//     undefined:23
-// }
+const obj={
+    null:"mansi",
+    undefined:23
+}
 
 //----------------------------------------------------------Multiple objects
-// const classinfo={
-//     mansi :{
-//         grade:"A"
-//     },
-//     dipendra :{
-//         grade:"B"
-//     },
-//        ram :{
-//         grade:"C"
-//     },
-// };
-// let fruit = ["apple", "banana", "mango", "grapes","CHIKOO","papaya"];
-// for(let i=0; i<fruit.length; i++)
-// {
-//     console.log(fruit[i]);
-// }
+const classinfo={
+    mansi :{
+        grade:"A"
+    },
+    dipendra :{
+        grade:"B"
+    },
+       ram :{
+        grade:"C"
+    },
+};
+let fruit = ["apple", "banana", "mango", "grapes","CHIKOO","papaya"];
+for(let i=0; i<fruit.length; i++)
+{
+    console.log(fruit[i]);
+}
 
 
 //method 1
