@@ -79,29 +79,29 @@
 // }
 
 //--------------------------------------------------------------for of loop with string
-// let nae="mansi";
-// for(let n of nae)
-// {
-//     console.log(n);
-// }
+let nae="mansi";
+for(let n of nae)
+{
+    console.log(n);
+}
 
 //--------------------------------------------------------------nested for of loop
-//  let Alpha =[ ["a", "b", "c"],["d","e","f"] ];
-//  for (let arr of Alpha)
-//  {
-//     for(let a of arr)
-//     {
-//         console.log(a);
-//     }
-//  }
+ let Alpha =[ ["a", "b", "c"],["d","e","f"] ];
+ for (let arr of Alpha)
+ {
+    for(let a of arr)
+    {
+        console.log(a);
+    }
+ }
 
 
 //---------------------------------------------------------------objects
-//  let stude={
-//     name: "mansi",
-//     age: 23,
-//     city: "surat"
-//  };
+ let stude={
+    name: "mansi",
+    age: 23,
+    city: "surat"
+ };
 
 
 //-------------------------------------------------------------object 2
