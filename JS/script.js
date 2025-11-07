@@ -40,43 +40,43 @@
 
 //------------------------------------------------Nested loop
 
-// for(let i=1; i<=3; i++)
-// {
-//  console.log("Outter loop: " + i);
-//  for(let j=1; j<=5; j++)
-//  {
-//     console.log(j);
-//  }
-// }
+for(let i=1; i<=3; i++)
+{
+ console.log("Outter loop: " + i);
+ for(let j=1; j<=5; j++)
+ {
+    console.log(j);
+ }
+}
 
 //-------------------------------------------------Project - Guess the movie
 
-// let fav="Interstellar"
-// let guess=prompt("guess the movie (Hint : reated by Black hole and space travel) or type 'quit' to exit");
-// while((guess!=fav) && (guess!="quit"))
-// {
-    // guess = prompt("wrong guess. Please Try again");
-// }
-// if(guess==fav)
-//     console.log("you guessed it right");
-// else
-//     console.log("you quit the game");
+let fav="Interstellar"
+let guess=prompt("guess the movie (Hint : reated by Black hole and space travel) or type 'quit' to exit");
+while((guess!=fav) && (guess!="quit"))
+{
+    guess = prompt("wrong guess. Please Try again");
+}
+if(guess==fav)
+    console.log("you guessed it right");
+else
+    console.log("you quit the game");
  
 
 
 //----------------------------------------------------------------Loop with array
-// let fruit = ["apple", "banana", "mango", "grapes"];
-// for(let i=0; i<fruit.length; i++)
-// {
-//     console.log(fruit[i]);
-// }
+let fruit = ["apple", "banana", "mango", "grapes"];
+for(let i=0; i<fruit.length; i++)
+{
+    console.log(fruit[i]);
+}
 
 //---------------------------------------------------------------for of loop
-// let car=["audi", "bmw", "mercedes", "ferrari"];
-// for(let c of car)
-// {
-//     console.log(c)
-// }
+let car=["audi", "bmw", "mercedes", "ferrari"];
+for(let c of car)
+{
+    console.log(c)
+}
 
 //--------------------------------------------------------------for of loop with string
 let nae="mansi";
