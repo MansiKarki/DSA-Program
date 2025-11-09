@@ -1,15 +1,15 @@
-// console.log("mansiiiiii");
-// let num =20;
-// if(num % 10 == 0){
-//     console.log("good");
-// }
-// else{
-//     console.log("bad");
-// }
+console.log("mansiiiiii");
+let num =20;
+if(num % 10 == 0){
+    console.log("good");
+}
+else{
+    console.log("bad");
+}
 
-// let namme = 'mansi';
-// let age = 23 ;
-//  alert('${namme} is ${age} years old');
+let namme = 'mansi';
+let age = 23 ;
+ alert('${namme} is ${age} years old');
 
 //---------------------------------------------------odd num
  console.log("odd numbers");
