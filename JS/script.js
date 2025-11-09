@@ -12,31 +12,31 @@
 //  alert('${namme} is ${age} years old');
 
 //---------------------------------------------------odd num
-//  console.log("odd numbers");
-// for(let i=1; i<=15; i++)
-//     {
-//     if(i%2==1)
-//         {
-//         console.log(i);
-//         }
-//     }
+ console.log("odd numbers");
+for(let i=1; i<=15; i++)
+    {
+    if(i%2==1)
+        {
+        console.log(i);
+        }
+    }
 
 // --------------------------------------------------even numbers    
-// console.log("even numbers");
-// for(let n=1; n<=15; n++)
-//     {
-//     if(n%2==0)
-//         {
-//         console.log(n);
-//         }
-//     }
+console.log("even numbers");
+for(let n=1; n<=15; n++)
+    {
+    if(n%2==0)
+        {
+        console.log(n);
+        }
+    }
 
 //--------------------------------------------------- multiplication table of 5
-// console.log("table of 5");
-// for(let i=1; i<=10; i++)
-// {
-//     console.log(i*5);
-// }
+console.log("table of 5");
+for(let i=1; i<=10; i++)
+{
+    console.log(i*5);
+}
 
 //------------------------------------------------Nested loop
 
