@@ -215,9 +215,9 @@ function abccd(){
 
 // abccd()();
 
-// (function(){
-//     console.log("IIFE function");
-// })();
+(function(){
+    console.log("IIFE function");
+})();
 
 
 function f()
