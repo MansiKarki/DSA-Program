@@ -230,7 +230,7 @@ console.log(f())
 
 IIFE
 (function() {
-  console.log("This is an IIFE (Immediately Invoked Function Expression)");
+  console.log("This is an IIFE (Immediately invodke Function Expression)");
 })();
 
 
